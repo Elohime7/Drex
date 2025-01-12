@@ -7,8 +7,8 @@
   "env": {
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
@@ -22,7 +22,7 @@
     },
     "PREFIX": {
       "description": "prefix, check for more",
-      "required": false,
+      "required": true,
       "value": "."
     },
     "SESSION_ID": {
@@ -32,8 +32,8 @@
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
-      "required": false,
-      "value": "❤️,LyFE"
+      "required": true,
+      "value": "Drex"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
